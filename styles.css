@@ -58,6 +58,12 @@
 ul.list-inline>li {
 	margin-right: 0x;
 }
+.wrapper {
+	padding: 0px 0px 25px 0px;
+}
+#listingPadding {
+	padding: 100px;
+}
 
 #spanspacing {
 	padding: 50px;
