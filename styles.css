@@ -1,3 +1,16 @@
+
+.html {
+	font-size: 62.5%;
+}
+
+.h1 { font-size: 2em; }
+.h2 { font-size: 1.5em; }
+.h3 { font-size: 1.17em; }
+.h4 { font-size: 1.12em; }
+.h5 { font-size: .83em; }
+.h6 { font-size: .75em; }
+.p { font-size: 1rem;}
+
 .carousel {
 	width: 640px;
 	height: 400px;
@@ -13,7 +26,7 @@
 	height: 100%; /* this ensures the carousel fills & fits in the box we set up above */
 	/*object-fit: contain; /* object-fit: cover might be preferable.
                           Removing object-fit  makes the image stretched/squashed when it
-                          doesn't match the carousel's aspect ratio */*/
+                          doesn't match the carousel's aspect ratio */
 }
 
 .carousel-control-prev,
@@ -61,8 +74,12 @@ ul.list-inline>li {
 .wrapper {
 	padding: 0px 0px 25px 0px;
 }
+
 #listingPadding {
-	padding: 100px;
+	padding: 0px 0px 25px 0px;
+}
+#listingMargin {
+	margin: 0px 0px 25px 0px;
 }
 
 #spanspacing {
