@@ -1,3 +1,4 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 .html {
 	font-size: 62.5%;
@@ -98,4 +99,60 @@ ul.list-inline>li {
 
 #testBackgroundColor {
 	background-color: red;
+}
+
+/*
+================
+Deal Box Stuff
+================
+*/
+
+div.deal:hover img {
+  opacity: 0.3;
+}
+
+div.deal * {
+  transition: all .35s ease-in-out;
+}
+
+div.deal:hover i {
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+ 
+.card:hover {
+	background-color: #737cfd;
+	text-decoration-color: #737cfd;
+	border-radius: 20px;
+}
+
+div.deal i {
+  position: absolute;
+  left: 50%;
+  border-radius: 50%;
+  font-size: 34px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  background: #000000;
+  color: #ffffff;
+}
+
+div.deal i {
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+i.opt-1 {
+	top:25%;
+}
+i.opt-2 {
+	top:50%;
+}
+i.opt-3 {
+	top:75%;
+}
+
+div.deal {
+  text-align: center;
 }
